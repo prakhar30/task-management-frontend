@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "https://prakhar30.github.io/task-management-frontend/static/css/main.985582f7.css",
+    "main.js": "https://prakhar30.github.io/task-management-frontend/static/js/main.e57afacd.js",
+    "index.html": "https://prakhar30.github.io/task-management-frontend/index.html",
+    "main.985582f7.css.map": "https://prakhar30.github.io/task-management-frontend/static/css/main.985582f7.css.map",
+    "main.e57afacd.js.map": "https://prakhar30.github.io/task-management-frontend/static/js/main.e57afacd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.985582f7.css",
+    "static/js/main.e57afacd.js"
+  ]
+}
