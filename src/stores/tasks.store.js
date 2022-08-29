@@ -1,10 +1,11 @@
-import { observable, action } from 'mobx';
+import { observable, action, makeObservable } from 'mobx';
 
 export default class TasksStore {
   @observable tasks = [];
   @observable filters = { status: '', search: '' };
 
   constructor(tasksService) {
+    makeObservable(this);
     this.tasksService = tasksService;
   }
 

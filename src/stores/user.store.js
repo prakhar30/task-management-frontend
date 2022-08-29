@@ -1,9 +1,10 @@
-import { observable, action } from 'mobx';
+import { observable, action, makeObservable } from 'mobx';
 
 export default class UserStore {
   @observable username = null;
 
   constructor(authService) {
+    makeObservable(this);
     this.authService = authService;
   }
 
