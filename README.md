@@ -11,3 +11,6 @@ This application acts as the front-end for the Task Management application devel
 
 ### Run application
 `yarn` to run the app in the console after setting up the dependencies
+
+### Live Application at - 
+https://prakhar30.github.io/task-management-frontend/
